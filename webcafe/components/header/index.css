@@ -1,3 +1,5 @@
+
+
 /* 건너뛰기 링크 */
 #skipNav{
   position: absolute;
@@ -21,13 +23,11 @@
   width: 940px;
   margin: 0 auto;
   height: 110px;
-
-
 }
 .logo{
   position: absolute;
-  top: 20px;
-  left: 50px;
+  top: 22px;
+  left: 55px;
 }
 .infoLink{
   text-align: right;
@@ -52,9 +52,10 @@
     #ed602d 70%,
     #f4a52e 100%
   );
-  box-shadow: 0 -2px 0 0 #000;
-  height: 50px;
+  height: 53px;
   padding-left: 225px;
+  padding-right:20px;
+  text-align: right;
 }
 .main-menu li, .main-menu a{
   display: inline-block;
@@ -63,12 +64,13 @@
   display: none;
   /* 삭제 예정 */
 }
-.main-menu > li > button {
+button {
 font-size: 14px;
+height: 53px;
 background: transparent;
 border-style: none;
 letter-spacing: 1px;
-padding: 15px 20px 14px;
+padding: 15px 21px 14px;
 font-weight: 700;
 
 color: #fff;
