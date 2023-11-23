@@ -9,12 +9,37 @@
   white-space: nowrap;
   border-width: 0;
 }
+body,
+body *,
+body *::before,
+body *::after {
+  box-sizing: border-box;
+}
 
+html {
+  font-size: 10px;
+}
 body {
-  font-family: 'SUIT Variable', Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  font-family: 'Pretendard Variable', Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI',
+    'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  color: #121212;
+
+  /* background: url(../images/bg_flower.png)  50% 0 scroll,
+    linear-gradient(180deg, #ccc 0%, #eee 30%, #fff 60%, #fff 100%), #ccc; */
+    background-color: #fff;
+    background-image: url(../images/bg_flower.png) , linear-gradient(to bottom, #c7c7c7 0%, #ffffff 100%);
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+em {
+  font-style: normal;
 }
